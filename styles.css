@@ -1,4 +1,3 @@
-/* General Styles */
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Task:2 font-family */
   background: linear-gradient(135deg, #4caf50, #ff6b6b); /* Task:2 background */
@@ -12,6 +11,7 @@ body {
   color: #333; /* Task:2 color */
   position: relative;
 }
+
 /*Task 4: Understanding the Box Model*/
 .container {
   background-color: #ffffff; /* Task:2 background-color */
@@ -46,12 +46,14 @@ label {
 }
 
 input {
-  width: 100%; /* Task:2 width */
+  width: 94%; /* Task:2 width */
   padding: 12px; /* Task:4 padding */
   border: 1px solid #ddd; /* Task:2 border */
   border-radius: 6px;
   font-size: 16px;
   transition: border-color 0.3s ease;
+  margin: 0 auto; /* Center input fields horizontally */
+  display: block; /* Ensure input fields are block-level elements */
 }
 
 input:focus {
@@ -64,6 +66,7 @@ input:focus {
   font-size: 14px;
   margin-top: 5px; /* Task:4 margin-top */
   display: block;
+  text-align: left; /* Ensure error messages are left-aligned */
 }
 
 /*Task:5 Button Styling */
