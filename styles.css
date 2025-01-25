@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Task:2 font-family */
+  background: linear-gradient(135deg, #4caf50, #ff6b6b); /* Task:2 background */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Task:5 display */
+  flex-direction: column; /* Task:5 flex-direction */
+  justify-content: center; /* Task:5 justify-content */
+  align-items: center; /* Task:5 align-items */
+  min-height: 100vh;
+  color: #333; /* Task:2 color */
+  position: relative;
+}
+/*Task 4: Understanding the Box Model*/
+.container {
+  background-color: #ffffff; /* Task:2 background-color */
+  padding: 30px; /* Task:2 padding */
+  border-radius: 12px; /* Task:2 border-radius */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Task:2 box-shadow */
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 28px; /* Task:2 font-size */
+  font-weight: 400; /* Task:2 font-weight */
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+/* Form Group Styling */
+.form-group {
+  margin-bottom: 20px; /* Task:4 margin-bottom */
+  text-align: left; /* Task:2 text-align */
+}
+
+label {
+  font-weight: 700; /* Task:3 font-weight */
+  line-height: 1.75rem; /* Task:3 line-height */
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+input {
+  width: 100%; /* Task:2 width */
+  padding: 12px; /* Task:4 padding */
+  border: 1px solid #ddd; /* Task:2 border */
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+.error-message {
+  color: #ff3535;
+  font-size: 14px;
+  margin-top: 5px; /* Task:4 margin-top */
+  display: block;
+}
+
+/*Task:5 Button Styling */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+}
+
+button[type="reset"] {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/*Task:6 Footer Styling */
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
